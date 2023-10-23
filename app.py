@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 
 options_list = pd.read_csv('var.csv', sep=';')
 
